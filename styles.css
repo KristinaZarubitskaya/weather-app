@@ -1,4 +1,114 @@
-h1 {
+ul {
+  list-style-type: none;
+  line-height: 30px;
+  font-style: italic;
+}
+h6 {
+  line-height: 40px;
+}
+div.form-group.enterCity {
+  text-align: left;
+}
+input {
+  opacity: 0.8;
+  border: solid;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
   text-align: center;
-  color: red;
+  color: #5580e9;
+  background-color: #fbeec1;
+  font-family: "PT Mono", monospace;
+  font-weight: 30px;
+}
+input#city-input {
+  opacity: 0.8;
+  border: solid;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+  text-align: center;
+  color: #5580e9;
+  background-color: #fbeec1;
+  font-family: "PT Mono", monospace;
+  font-weight: 30px;
+}
+button#locationButton {
+  position: relative;
+  top: -40px;
+  left: 500px;
+  opacity: 0.8;
+  border: solid;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+  color: #5580e9;
+  background-color: #fbeec1;
+  font-family: "PT Mono", monospace;
+  font-weight: 30px;
+}
+
+.weatherApp {
+  border: solid;
+  border-color: #659ebc;
+  background-color: #59b8eb;
+  width: 800px;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 10px;
+  border-width: medium;
+}
+.units {
+  text-decoration: none;
+}
+
+.dateDetails,
+.city,
+.nowTemp {
+  opacity: 0.8;
+  border: solid;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+  text-align: center;
+  color: #5580e9;
+  background-color: #fbeec1;
+  font-family: "PT Mono", monospace;
+  font-weight: 30px;
+}
+
+.enterCity {
+  text-align: center;
+  font-size: large;
+}
+
+.nowPicture {
+  font-size: 150px;
+  text-align: center;
+  width: 100%;
+}
+.nowDetails {
+  text-align: center;
+  width: 100%;
+  font-family: "PT Mono", monospace;
+  color: #fbeec1;
+  font-weight: 30px;
+}
+.card {
+  opacity: 0.8;
+  border: solid;
+  width: fit-content;
+  border-radius: 10px;
+  margin-top: 60px;
+  background-color: #fbeec1;
+  color: #5580e9;
+  font-family: "PT Mono", monospace;
+  border-radius: 20px;
+}
+.dayicon {
+  text-align: center;
+  width: 100%;
 }
